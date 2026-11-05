@@ -1,0 +1,42 @@
+# 环境变量与敏感凭据（强制隔离，严禁提交）
+.env
+.env.local
+.env.*.local
+credentials.json
+data/credentials.json
+client_id
+api_key
+
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 临时与日志文件
+*.log
+*.tmp
+temp_*
+attatchments/
+attachments/
+.DS_Store
+Thumbs.db
